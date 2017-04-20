@@ -31,5 +31,7 @@ temp.aggregate15 <-aggregate(list(temp.cutoff15$temp, temp.cutoff15$tdd,
                              FUN="mean", na.rm=T)
 names(temp.aggregate15)<-c("site","temp","tdd","thaw","temp.na")
 
+#test#
+
 write.csv(temp.aggregate15,"agg_temp_15cm.csv")
 
